@@ -1,0 +1,38 @@
+.haciendo {
+    font-family: Arial, sans-serif;
+    font-size: 1.8rem;
+    color: #444;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 15px;
+}
+
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    flex-direction: column; 
+}
+
+.mi-super-boton {
+    padding: 0; /* Ajustado para imagen */
+    font-size: 1.5rem;
+    background-color: transparent; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    z-index: 1000;
+}
+
+.mi-super-boton:hover {
+    opacity: 0.9;
+}
+
+.mi-super-boton:active {
+    transform: scale(0.98);
+}
